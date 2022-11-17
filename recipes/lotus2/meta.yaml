@@ -11,12 +11,12 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
   noarch: generic
 
 requirements:
   run:
-    - r-base 4.1
+    - r-base
     - bioconductor-dada2
     - bioconductor-phyloseq
     - blast
